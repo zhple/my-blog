@@ -15,4 +15,4 @@ hasCJKLanguage = false
 disqusShortname = "banqi"
 
 [pagination]
-    pagerSize = 5
+    pagerSize = 10
