@@ -1,20 +1,14 @@
 ---
-title: 你好
-description: Welcome to Hugo Theme Stack
+title: Rust
+description: rust语言的一些东西
 slug: hello-world
-date: 2022-03-06 00:00:00+0000
+date: 2026-04-07 00:00:00+0000
 image: back.jpg
 categories:
-    - Example Category
+    - Rust Category
 tags:
-    - Example Tag
+    - Rust Tag
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
+我会在这里写一些rust语言相关的东西
 
-Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!
-
-For more information about this theme, check the documentation: https://stack.jimmycai.com/
-
-Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
-
-> Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)

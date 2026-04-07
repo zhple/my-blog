@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: Rust Category
+description: rust语言
 image:
 
 # Badge style
