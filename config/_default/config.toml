@@ -1,7 +1,7 @@
 # Change baseurl before deploy
 baseurl      = "/" #你的站点域名
 languageCode = "zh-cn" #站点语言
-title        = "博客" # 站点标题
+title        = "banqi的博客" # 站点标题
 
 # Theme i18n support
 # See all available values at https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n
