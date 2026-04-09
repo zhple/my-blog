@@ -11,7 +11,7 @@ tags:
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 我会在这里写一些rust语言相关的东西
-## 1 rust基础配置与输出helloworld
+## rust基础配置与输出helloworld
 - rust的安装
     https://rust-lang.org/zh-CN/：进入rust官网，下载官网提供的安装器
     ![Image 1](image/1-1.png)
@@ -37,7 +37,7 @@ weight: 1       # You can add weight to some posts to override the default sorti
     但使用cargo就不需要考虑这些，书写完之后保存直接cargo run就行
     ![Image 1](image/1-9.png)
 
-## 2 使用Rust读取json文件
+## 使用Rust读取json文件
 - 步骤思路
     先读取file -> read_to_string将读取出的file以string的类型存下来 -> 将取出来的string转为JsonValue对象 -> 取值
     ```rust
@@ -63,7 +63,7 @@ weight: 1       # You can add weight to some posts to override the default sorti
         //把上面转为string的json文件转为Result<json::JsonValue, json::Error> 
         ```
     4. 第四步
-        结构,拿值
+        解构,拿值
         ```rust
         match json_analysis{
             OK(parsed) => { //如果解析成功则为JsonValue对象
@@ -78,4 +78,4 @@ weight: 1       # You can add weight to some posts to override the default sorti
             }
         }
         ```
-## 3         
+## 开发文件读取模块，支持解析指定格式json文件，并处理异常提取关键业务字段
